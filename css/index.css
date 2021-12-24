@@ -1,0 +1,256 @@
+.signInBtn{
+    width:100px;
+    height:35px;
+    font-size:1em;
+    padding:8px 20px;
+}
+
+/*Home page*/
+.home{
+    background : url(https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/976541cb-55ab-4629-b2dc-ee473a687a5f/GB-en-20210719-popsignuptwoweeks-perspective_alpha_website_small.jpg), radial-gradient(transparent 0%, #000000 95%);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-blend-mode:darken;
+    min-width:300px;
+    width:98.7vw;
+    height: 130vh;
+    color:#ffffff;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    top:-80px;
+    left:0px;
+    z-index:0;
+}
+.home .introduction{
+    min-width:300px;
+    max-width:400px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
+.home .introduction h1 {
+    text-align:center;
+    width:100%;
+}
+.home .introduction h2 {
+    width:100%;
+    margin:16px 0px;
+    text-align:center;
+}
+/* .home .introduction h3{
+    width:80vw;
+    margin:1rem;
+} */
+
+.emailInput{
+    width:35vw;
+    height:60px;
+    font-size:1rem;
+    margin:0 auto;
+}
+
+.callToAction{
+    display:flex;
+    max-width:70vw;
+}
+
+.callToAction button{
+    width:214px;
+    height:60px;
+    font-size:1.6rem;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+/*Our services*/
+.moreInfo{
+    position:relative;
+    top:-80px;
+    left:0;
+}
+
+.infoContainer{
+    display:flex;
+    flex-direction:column;
+    width:50vw;
+    height:auto;
+}
+.signInInfo {
+    display: flex;
+    border-top: 7px solid #222222;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 45px;
+    display:flex;
+    overflow:hidden;
+    width:98.7vw;
+}
+
+.signInInfo img {
+    width:35vw;
+    height: auto;
+}
+
+/*FAQ*/
+.question {
+    width: 65vw;
+    height: 75px;
+    background-color: #303030;
+    border: none;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 20px 33px;
+    margin: 5px 0;
+}
+
+.answer {
+    width: 700px;
+    height: auto;
+    display: none;
+    background-color: #303030;
+    font-size: 26px;
+    padding: 20px;
+}
+.faq{
+    width:98.7vw;
+    border-top:10px solid #222222;
+    border-bottom:10px solid #222222;
+    padding:70px 0px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    position:relative;
+    top:-80px;
+    left:0;
+}
+.questions_container{
+    margin:30px;
+}
+
+.firstQuestion img{
+    width:30px;
+    height:auto;
+}
+.faq h3, .faq .emailInput, .faq .btn{
+    margin-top: 1.5rem;
+}
+.faq h3{
+    max-width:800px;
+    text-align:center;
+}
+.faq .btn{
+    padding: 10px 16px;
+}
+/*Footer*/
+footer{
+    position:relative;
+    top:-80px;
+    left:0px;
+}
+
+@media screen and (max-width: 768px){
+    .home{
+        margin-top:0px;
+    }
+    .home h1, .home h2{
+        transform:scale(0.98);
+        margin:5px 0px;
+    }
+    .home .introduction{
+        margin-top:110px;
+    }
+    .callToAction{
+        flex-direction:column;
+        align-items:center;
+    }
+    .callToAction{
+        border-radius:3px;
+    }
+    .callToAction button{
+        transform:scale(0.6);
+        border-radius:3px;
+    }
+    .emailInput{
+        width:70vw;
+    }
+    .infoContainer{
+        max-height:30px;
+        transform:scale(0.7);
+        text-align:center;
+        width:95vw;
+    }
+    .moreInfo{
+        min-width:300px;
+    }
+    .signInInfo{
+        flex-direction:column;
+        padding:0;
+        min-width:300px;
+    }
+    .signInInfo img{
+        width:70vw;
+    }
+    .moreInfo2 .infoContainer{
+        position:relative;
+        top:-320px;
+        right:0px;
+    }
+    .moreInfo2 .imageContainer{
+        position:relative;
+        top:150px;
+        left:0px;
+    }
+    .moreInfo4 .infoContainer {
+        position: relative;
+        top: -320px;
+        right: 0px;
+    }
+    .moreInfo4 .imageContainer {
+        position: relative;
+        top: 160px;
+        left: 0;
+    }
+    .question {
+        width: 80vw;
+    }
+
+    .faq .questions_container, .faq h1{
+        transform:scale(0.9);
+    }
+    .faq h3,
+    .faq .emailInput,
+    .faq .btn {
+        margin-top: 5px;
+    }
+    .footer-content{
+        transform:scale(0.9)
+    }
+}
+@media screen and(max-width: 630px){
+     .moreInfo4 .infoContainer {
+        width:95vw;
+    }
+/*
+    .moreInfo2 .infoContainer {
+        position: relative;
+        top: -220px;
+        left: 70px;
+    } */
+    .moreInfo4 .imageContainer {
+        position: relative;
+        top: 300px;
+        left: 0;
+    }
+}

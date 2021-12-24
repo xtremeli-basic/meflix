@@ -1,0 +1,20 @@
+body{
+    background-color:transparent !important;
+}
+.home{
+    width:30vw;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+}
+.playBtn{
+    width:50px;
+}
+
+.backBtn{
+    position:absolute;
+    top:50px;
+    left:50px;
+    font-size:1.5rem;
+    background-color:transparent !important;
+}

@@ -1,0 +1,21 @@
+.home {
+    min-width: 300px;
+    width: 98.7vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video{
+    width:98.7vw;
+    height:100vh;
+}
+.backBtn{
+    position:absolute;
+    top:50px;
+    left:50px;
+    font-size:1.5rem;
+    background-color:transparent !important;
+}
+
